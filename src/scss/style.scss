@@ -1,0 +1,26 @@
+@import "fonts";
+@import 'base/variables';
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.divider {
+  width: 60px;
+  height: 2px;
+  background-color: $main-color;
+}
+@import 'blocks/promo.scss';
+@import 'blocks/buttons.scss';
+@import 'blocks/sidepanel';
+@import 'blocks/menu';
+@import 'blocks/about';
+@import 'blocks/contact'

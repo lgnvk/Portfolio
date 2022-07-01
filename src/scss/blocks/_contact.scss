@@ -1,0 +1,36 @@
+.contact {
+  h3 {
+    padding-bottom: 5px;
+  }
+  h2 {
+    padding-bottom: 5px;
+  }
+  p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  &__link {
+    margin-right: 10px;
+    img {
+      width: 25px;
+    }
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  &__inputs {
+    input {
+      width: 300px;
+      margin-right: 10px;
+    }
+  }
+  textarea {
+    width: 610px;
+    margin-top: 10px;
+  }
+  button {
+    width: 200px;
+    margin-top: 10px;
+  }
+}
